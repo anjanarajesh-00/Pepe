@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Pepelo Clone",
+    "slug": "pepelo-clone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "pepelo",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0d0d1a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.pepeloclone"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0d0d1a"
+      },
+      "package": "com.yourname.pepeloclone"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
